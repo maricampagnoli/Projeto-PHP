@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Lanchonete</title>
+    <!-- Inserir bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Inserindo Css  -->
+    <link rel="stylesheet" type="text/css" href="styles/projeto.css">
+</head>
+<body>
+    <header>
+        <fieldset class="border p-2">
+            <legend class="w-auto">Menu</legend>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a href="#" class="navbar-brand"><img src="lanchelogo.png" alt="lanche logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href = "#" class="nav-link active" aria-current="page">Novo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Fechar pedido</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Salvar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Cadastros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Relatórios</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </fieldset>
+        <div ></div>
+    </header>
+        <main>
+            <fieldset class="border p-2">
+                <legend class="w-auto2">Dados</legend>
+                    <form action="index.html" method="post">
+                        <label for="codigo_pedido">Código do Pedido</label>
+                        <input type="text" id="codigo_pedido" name="codigo_pedido" size="80">
+                        <br>
+                        <label for="nome_cliente">Nome do Cliente</label>
+                        <input type="text" id="nome_cliente" name="nome_cliente" size="80">
+                        <br><div class="box1">Tipos de Lanches</div>
+                        <div class="box2">Adicionais</div>
+                        <div class="box3">Pedidos</div>
+                    </form>
+
+
+            </fieldset>            
+        </main>
+    
+</body>
+</html>
