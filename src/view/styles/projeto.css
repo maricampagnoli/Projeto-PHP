@@ -1,0 +1,198 @@
+body{
+   background-color:#74b3fc;
+   font-family: 'Roboto', sans-serif;
+
+}
+.w-auto{
+   text-align: center;
+   color: aliceblue;
+}
+#navbar{
+   color: aliceblue;
+   border-radius: 35px;
+   border: 2px solid #58a3f8;
+   background-color: #58a3f8;
+
+}
+
+.navbar-brand img{ 
+   height: 60px;
+   width: 60px;
+}
+.w-auto{
+   text-align: left;
+   color: aliceblue;
+}
+.containermaior{
+   border: 1px solid black;
+   display: grid;
+   grid-template-areas:
+   'container container-pedidos';
+   height: 1000px;
+}
+.container{
+   /* largura */
+   width: 850px;
+   /* altura */
+   height: 600px;
+   margin-left : 20px;
+   margin-top: 0px;
+}
+.container-pedidos{
+   margin-top: 0px;
+   width: 410px;
+   height: 600px;
+}
+#bordapedidos{
+   height: 580px;
+   width: 410px;
+}
+.pedidos{
+   margin-left: 0px;
+   margin-top: 12px;
+   height: 600px;
+   width: 410px;
+}
+#bordadados{
+   height: 250px;
+   width: 810px;
+}
+.dados{
+   margin-top: 12px;
+   height: 250px;
+   width: 810px;
+
+}
+#codigo{
+   border: 3px black;
+   width: 790px;
+}
+#nome_cliente{
+   border: 3px black;
+   width: 790px;
+   border-radius: 1px;
+}
+.divisoria{
+   display: flex;
+   justify-content:space-between; 
+   width: 100%;
+   height: 50px;
+}
+#tipo_lanche{
+   width: 560px;
+   height: 40px;
+}
+.tiposdelanches{
+   width: 77%;
+   height: 100px;
+}
+.lanches{
+   width: 100%;
+   height: 100px;
+}
+
+.bebidas{
+   display: flex;
+   justify-content:space-between; 
+   width: 100%;
+   height: 50px;
+}
+.divBebidas{
+   width: 50%;
+   height: 100px;
+}
+.bebidasgeladas{
+   width: 50%;
+   height: 100px;
+}
+.tiposdebebidas{
+   padding-top: 45px;
+   width: 100%;
+   height: 200px;
+}
+#tipobebida{
+   width: 560px;
+   height: 40px;
+}
+.adicionais{
+   display: block;
+   width: 20%;
+   height: 50px;
+}
+.adicionaisChild{
+   width: 187px;
+   height: 100px;
+}
+.addChild{
+   width: 100%;
+   height: 100px;
+}
+#bordadatapedido{
+   width: 100%;
+   height: 120px;
+}
+#bordaobs{
+   width: 100%;
+   height: 180px;
+}
+#date{
+   width: 100%;
+   height: 50px;
+}
+#link1{
+   padding-top: 30px;
+}
+#date{
+   border-color: aliceblue;
+   border-radius: 10px;
+}
+#selectlanche{
+   width: 578px;
+}
+#selectbebida{
+   width: 570px;
+}
+#icon{
+   color: rgb(55, 105, 180);
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   margin-top: 55px;
+   margin-left: 588px;
+}
+#icon2{
+   color: rgb(55, 105, 180);
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   margin-top: 298px;
+   margin-left: 580px;
+}
+#icon3{
+   color: rgb(55, 105, 180);
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   margin-top: 45px;
+   margin-left: 805px;
+}
+#nomecliente{
+   width: 720px;
+}
+#idpedido{
+   width: 720px;
+}
+#icon4{
+   color: rgb(55, 105, 180);
+   position: absolute;
+   width: 35px;
+   height: 35px;
+   margin-top: 165px;
+   margin-left: 730px;
+}
+#buttoncad{
+   background-color: #58a3f800;
+   border: #003e8500;
+   position: absolute;
+  
+}
